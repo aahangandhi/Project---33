@@ -63,10 +63,9 @@ function draw() {
     text("Press 'R' key to play again",280,450);
   }
 
-  if(keyCode === 82&&gameState === "end"){
-    gameState = "play";
-    score = 0;
-    turns = 5;
+    if(keyCode === 32&&gameState === "end"){
+    window.location.reload();
+    window.location.reload();
   }
 
   //Text for displaying score
