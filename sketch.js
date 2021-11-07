@@ -60,7 +60,7 @@ function draw() {
     text("Game Over",295,420);
     fill("yellow");
     textSize(20)
-    text("Press 'R' key to play again",280,450);
+    text("Press 'Space' to play again",280,450);
   }
 
     if(keyCode === 32&&gameState === "end"){
